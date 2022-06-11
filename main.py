@@ -100,8 +100,8 @@ def extract(img) :
 
 def predict(image):
     num_classes=26
-    model_emoji = load_model('/content/drive/MyDrive/mosaic/model_emoji.h5')
-    model = load_model('/content/drive/MyDrive/mosaic/model_full.h5')
+    model_emoji = load_model('/content/drive/MyDrive/mosaic/model_emoji_dataset.h5')
+    model = load_model('/content/drive/MyDrive/mosaic/model_full_dataset.h5')
     class_mapping='1234567ABDEFHJKLMNPRSTWXYZ'
     count=0
     total=0
