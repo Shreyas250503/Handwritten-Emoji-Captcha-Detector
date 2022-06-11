@@ -7,8 +7,8 @@ The model was trained on Google Colab using the hand drawn dataset in the form o
 ![image](https://user-images.githubusercontent.com/78314796/173179955-f411de3e-8e10-4683-bda1-a83ab3e36e4b.png)
 
 # Special Features of The Model
-This model can recognize captchas consisting of letters and numbers rotated at a max. angle of 30 deg.
-Can detect captchas having letters and emoji of variable thickness and size.
+1. This model can recognize captchas consisting of letters and numbers rotated at a max. angle of 30 deg.
+2. Can detect captchas having letters and emoji of variable thickness and size.
 # Characters
 The characters on which the model was trained are given in the file characters.txt. To decode captchas you need to input the image paths in the main.py file and run the file. The python libraries required for this are mentioned in the requirements.txt file. The csv file on which the model was trained is also available. A few sample captchas have also been provided in the sample captchas folder.
 Emoji in the character set are Checkmark, Cloud, Croissant, Heart, Laugh, Smile, Sun.
