@@ -1,7 +1,7 @@
 # Handwritten Emoji Captcha Detector
 This captcha solver has been developed using deep learning and convolutional neural networks with the use of OpenCV for character segmentation. 
 It can be used to recognize handwritten captchas consisting of different letters as well as emoji. 
-The model was trained on Google Colab using the hand drawn dataset in the form of a csv file. The model was trained to achieve a validation accuracy of 
+The model was trained on Google Colab using the hand drawn dataset in the form of a csv file. The model was trained to achieve a training accuracy of 
 ~97% and a test accuracy of ~98%.
 
 ![image](https://user-images.githubusercontent.com/78314796/173179955-f411de3e-8e10-4683-bda1-a83ab3e36e4b.png)
